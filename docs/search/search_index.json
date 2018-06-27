@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Tuubes\n\u00b6\n\n\nThis website is under construction, please come back later :^)\n\n\nMkDocs help\n\u00b6\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.",
+            "title": "Welcome to Tuubes"
+        },
+        {
+            "location": "/#welcome-to-tuubes",
+            "text": "This website is under construction, please come back later :^)",
+            "title": "Welcome to Tuubes"
+        },
+        {
+            "location": "/#mkdocs-help",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "MkDocs help"
+        }
+    ]
+}

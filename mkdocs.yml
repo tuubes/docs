@@ -1,0 +1,50 @@
+# MkDocs config
+docs_dir: 'src'
+site_dir: 'build'
+
+# Site infos
+site_name: Tuubes Documentation
+site_description: Fancy official documentation of the Tuubes project. Learn stuff!
+site_author: TheElectronWill
+copyright: 'Code blocks LGPLv3, remaining documentation CC-BY-SA 4.0'
+
+# Material theme config
+theme:
+  name: 'material'
+  palette:
+    primary: 'green'
+    accent: 'blue'
+  logo: 'img/cube.svg'
+  feature:
+    tabs: true
+
+# Github integration
+repo_name: 'tuubes/TuubesCore'
+repo_url: 'https://github.com/tuubes/TuubesCore'
+edit_uri: '../docs/edit/master/src/docs/' # for the edition button
+
+# Social links
+extra:
+  social:
+  - type: 'github'
+    link: 'https://github.com/tuubes'
+  - type: 'twitter'
+    link: 'https://twitter.com/TheElectronWill'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
