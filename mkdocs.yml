@@ -21,7 +21,7 @@ theme:
 # Github integration
 repo_name: 'tuubes/TuubesCore'
 repo_url: 'https://github.com/tuubes/TuubesCore'
-edit_uri: '../docs/edit/master/src/docs/' # for the edition button
+edit_uri: '../docs/edit/master/src/' # for the edition button
 
 # Social links
 extra:
